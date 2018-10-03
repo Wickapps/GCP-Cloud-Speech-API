@@ -5,7 +5,26 @@ This project is covered in Chapter 3 of the [book](https://www.apress.com/us/boo
 ![](fig-cover-sm.jpg)
 
 This repository is a clone of the
-[Google Cloud Speech API](https://cloud.google.com/speech/).
+[Google Cloud Speech API](https://cloud.google.com/speech/). 
+
+# Project References
+Project Name: GCP Cloud Speech API
+
+Source: Github Google Cloud Speech Platform
+
+Type: Android Application
+
+# Key File Summary
+| File | Description
+| :--- | : ---
+| app->src->main->java->MainActivity.java | The main activity that checks for device permissions, launches the voice recorder and speech service, and sets up the main view. 
+| app->src->main->java->SpeechService.java | Service for handling API access. This Android Service implements the interface to the GCP Cloud Speech API, including authentication and real-time streaming of spoken words.
+| app->src->main->java->MessageDialogFragment.java | A simple Android Dialog class that the app uses to display messages to the user.
+| app->src->main->java->VoiceRecorder.java | This class implements the Android AudioRecord class for voice recording.
+| app->src->main->res->layout->main.xml | Main XML layout.
+| app->src->main->res->raw->credential.json | JSON credential file created on the GCP Cloud API Center. Place the file into the res/raw folder.
+| app->src->main->res->raw->audio.raw | A sample audio file stored into /res/raw folder that can be sent to the API for classification. The audio file is a recording of the spoken words "how old is the Brooklyn Bridge".
+| app->src->main->AndroidManifest.xml | App manifest file. Define the activity and the service.
 
 ## Prerequisites
 
