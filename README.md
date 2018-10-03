@@ -1,6 +1,12 @@
 # Google Cloud Speech API examples
 
-This directory contains Android example that uses the
+This project is covered in Chapter 3 of the book:
+
+![](fig-cover-sm.jpg)
+
+https://www.apress.com/us/book/9781484239506
+
+This repository is a clone of the
 [Google Cloud Speech API](https://cloud.google.com/speech/).
 
 ## Prerequisites
