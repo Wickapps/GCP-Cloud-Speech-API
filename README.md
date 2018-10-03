@@ -1,10 +1,8 @@
 # Google Cloud Speech API examples
 
-This project is covered in Chapter 3 of the book:
+This project is covered in Chapter 3 of the [book](https://www.apress.com/us/book/9781484239506):
 
 ![](fig-cover-sm.jpg)
-
-https://www.apress.com/us/book/9781484239506
 
 This repository is a clone of the
 [Google Cloud Speech API](https://cloud.google.com/speech/).
