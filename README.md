@@ -9,12 +9,14 @@ This repository is a clone of the
 
 # Project References
 **Project Name:** GCP Cloud Speech API
+
 **Source:** Github Google Cloud Speech Platform
+
 **Type:** Android Application
 
 # Key File Summary
 | File | Description |
-| :--- | : --- |
+| :--- | :--- |
 | app->src->main->java->MainActivity.java | The main activity that checks for device permissions, launches the voice recorder and speech service, and sets up the main view. 
 | app->src->main->java->SpeechService.java | Service for handling API access. This Android Service implements the interface to the GCP Cloud Speech API, including authentication and real-time streaming of spoken words.
 | app->src->main->java->MessageDialogFragment.java | A simple Android Dialog class that the app uses to display messages to the user.
